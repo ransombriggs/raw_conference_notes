@@ -1,0 +1,30 @@
+  ########## Installing gcc ##########
+  sudo apt-get install gcc-4.3 # there's a bug with ruby 1.8.6 and gcc-4.4
+  export CC=gcc-4.3
+
+  ########## Installing RVM ##########
+  sudo apt-get install curl git-core # install dependencies
+  bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head ) # rvm head did not work, I did latest tarball release
+
+  # edit .bashrc and add line
+  # put it before the return dude
+  [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+  rvm notes # shows list of dependencies for each distribution of ruby
+  # install dependencies for the distro you want, using apt-get
+
+  rvm install 1.8.6 # or whatever version we are using
+  rvm use 1.8.6 # you can put this in your bashrc if you don't want to do this every time
+
+  ########## Installing BZR ##########
+  sudo add-apt-repository ppa:bzr/ppa
+  sudo apt-get install bzr
+
+  ########## Install some gems ##########
+  sudo apt-get install libxslt1-dev # required for nokogiri
+  sudo apt-get install libcups2-dev # required for cups
+
+  gem install rake rcov ruby-debug wkhtmltopdf-binary cups nokogiri
+  gem install rack --version=1.0.1
+  gem install webrat --version=0.5.3
+  gem install cucumber --version=0.3.100

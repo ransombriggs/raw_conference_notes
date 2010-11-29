@@ -1,0 +1,39 @@
+Pair programming resources
+	5somes
+		lists of tasks that do not require pairing
+	switching times
+		switching after standups
+		one person always stays on the switch
+	bad schedules
+	refactor happy
+		tries to only refactor on green
+
+Seed data
+	Do we just sit down and refactor
+		Do not try and do all at once
+		Do it incrmenetally (we still never do it)
+
+Product Ownership
+	Stream of good prioritized stories
+	Portfolio management problems
+		Dials approach -> start everything & they see at the end
+		Work as MRFs all the way to done
+
+Product Owner per backlog
+	Who makes the call when it is DSP & OAR
+
+Questions for bob
+	Work on story splitting & MRF level planning
+	
+Ransom
+Ashok
+Alexander
+Brian
+Hayley
+
+Brian  # Scrummaster
+JJ     # PC
+
+Barton # Classes
+
+
